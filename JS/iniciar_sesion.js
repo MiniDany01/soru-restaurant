@@ -17,7 +17,7 @@ function login() {
   params.append("password", password);
 
   // Hacer petición al Apps Script
-  fetch("https://script.google.com/macros/s/AKfycbwxgSNWSW9zFQZ6jhgINTlmn_jtMaQHPeMKgOmhW88i5A5BSKdNaQWdcsw3_6ikusfw/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbyNiXNoUlZvl6bGAvhR8Z0ZlvlMNIkB83Q9sBtsHRTtwev0UcNLbreWt8r-pRN0WmQEdw/exec", {
     method: "POST",
     body: params
   })
